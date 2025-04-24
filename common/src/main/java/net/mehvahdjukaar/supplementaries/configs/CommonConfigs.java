@@ -248,7 +248,7 @@ public class CommonConfigs {
             GOLD_DOOR_ENABLED = feature(builder, ModConstants.GOLD_DOOR_NAME);
             GOLD_TRAPDOOR_ENABLED = feature(builder, ModConstants.GOLD_TRAPDOOR_NAME);
             LOCK_BLOCK_ENABLED = feature(builder, ModConstants.LOCK_BLOCK_NAME);
-            RELAYER_ENABLED = feature(builder, ModConstants.RELAYER_NAME);
+            RELAYER_ENABLED = FALSE; // Disabled as current implementation changes vanilla redstone behavior
 
             builder.pop();
         }
