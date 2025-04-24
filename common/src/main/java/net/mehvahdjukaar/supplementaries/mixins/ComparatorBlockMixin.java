@@ -23,7 +23,7 @@ public abstract class ComparatorBlockMixin extends DiodeBlock {
         var facing = state.getValue(ComparatorBlock.FACING);
         for (var d : Direction.values()) {
             if (d.getAxis() != facing.getAxis()) {
-                level.neighborChanged(pos.relative(d), this, pos);
+                //level.neighborChanged(pos.relative(d), this, pos);
             }
         }
     }
